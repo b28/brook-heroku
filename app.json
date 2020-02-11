@@ -9,15 +9,15 @@
      },
      "COMMAND": {
        "description": "命令",
-       "value": "wsserver --domain h-t-1.herokuapp.com -p brook123456"
+       "value": "server -l :80 -p password"
      },
      "PASSWORD": {
        "description": "用于加密传输的密码（已经失效）",
-       "value": ""
+       "value": "123456"
      },
      "PORT": {
        "description": "设置监听端口，该地址是客户端需要连接的端口（已经失效）",
-       "value": ""
+       "value": "123456"
      }
   },
   "stack": "container",
