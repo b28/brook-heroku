@@ -5,22 +5,22 @@
   "env": {
     "VERSION": {
        "description": "Brook 版本号",
-       "value": "20190601"
+       "value": "20200201"
      },
      "COMMAND": {
        "description": "命令",
-       "value": "ssserver -l :9999 -p password"
+       "value": "wsserver --domain h-t-1.herokuapp.com -p brook123456"
      },
      "PASSWORD": {
-       "description": "用于加密传输的密码",
-       "value": "brook123456"
+       "description": "用于加密传输的密码（已经失效）",
+       "value": ""
      },
      "PORT": {
-       "description": "设置监听端口，该地址是客户端需要连接的端口",
-       "value": "9999"
+       "description": "设置监听端口，该地址是客户端需要连接的端口（已经失效）",
+       "value": ""
      }
   },
   "stack": "container",
-  "website": "https://github.com/wizos/brook-heroku",
-  "repository": "https://github.com/wizos/brook-heroku"
+  "website": "https://github.com/b28/brook-heroku",
+  "repository": "https://github.com/b28/brook-heroku"
  }
